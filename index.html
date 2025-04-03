@@ -25,8 +25,8 @@
     </script>
 
     <script>
-        window.alert("Hello world alert");
-        window.alert("Get out of my house cowboy you been skibbity bee bop bad for too long");
+        //window.alert("Hello world alert");
+        //window.alert("Get out of my house cowboy you been skibbity bee bop bad for too long");
         window.alert("This is an alert");
     </script>
 
@@ -34,7 +34,78 @@
         console.log("Hello world console");
         console.log("Get out of my house cowboy you been skibbity bee bop bad for too long");
         console.log("This is a console log");
+
+        var x, y, z;
+        x = 5;
+        y = 6;
+        z = x + y;
+        console.log(z);
+
+        var a, b, c;
+        a = 10;
+        b = 20;
+        c = a + b;
+        console.log(c);
+
+        var price = 2.50;
+        var quantity = 5;
+        var total = price * quantity;
+        console.log(total);
+
+        var firstName = "Albus";
+        var lastName = "Dumbledore";
+        var fullName = firstName + " " + lastName;
+        console.log(fullName);
+
+        document.getElementById
+
     </script>
+
+    <p id="testId">TEST ID. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim neque delectus culpa, nesciunt provident eveniet harum alias debitis voluptate? Quasi, illo odio. Quasi iusto minus, blanditiis accusamus delectus recusandae sapiente?</p>
+
+    <script>
+
+function myFuncDog(p1, p2, p3, p4, p5) {
+    return p1 * p2 * p3 * p4 * p5;
+}
+            document.getElementById("testId").innerHTML = myFuncDog(4, 3, 2, 1, 5);
+    </script>
+
+    <p id="testId2">MY SECOND TEST PARAGRAPH</p>
+
+<script>
+function myFuncCat(p1, p2, p3, p4) { 
+    return p1 * p2 * p3 * p4;
+}
+
+document.getElementById("testId2").innerHTML = myFuncCat(2, 3, 40, 5);
+
+</script>
+
+<p id="testId3">MY THIRD TEST PARAGRAPH THAT SHOULD BE OVERWRITTEN</p>
+
+<script>
+function myFuncRat(p1, p2, p3, p4, p5, p6) {
+    return p1 * p2 * p3 * p4 * p5 * p6;
+}
+
+document.getElementById("testId3").innerHTML = myFuncRat(2, 3, 4, 5, 6, 7);
+</script>
+
+
+<p id="testId4">MY FOURTH TEST PARAGRAPH THAT SHOULD BE OVERWRITTEN</p>
+
+<script>
+function myFuncFullNameGenerator(firstName, lastName) {
+    return firstName + " " + lastName;
+}
+
+document.getElementById("testId4").innerHTML = myFuncFullNameGenerator("Juicy", "J");
+</script>
+
+
+
+
 
 </body>
 </html>
